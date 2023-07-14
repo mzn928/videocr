@@ -9,7 +9,7 @@ from . import constants
 from . import utils
 from .models import PredictedFrame, PredictedSubtitle
 from .opencv_adapter import Capture
-
+pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
 class Video:
     path: str
